@@ -1,0 +1,24 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+  margin: 2px solid black;
+  margin-left: 333px;
+}
+#btn{
+  position: absolute;
+  left: 648px;
+  width: 70px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  top: 400px;
+  cursor: pointer;
+  display: none;
+}
+#btn:hover{
+  border: 1px solid black;
+}
